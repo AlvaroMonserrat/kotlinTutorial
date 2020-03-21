@@ -2,12 +2,7 @@
 //Kotlin
 import kotlin.collections.*
 
-fun opera(lista: List<Int>, valor: Int, funcion:(Int, Int)->Int): List<Int> {
-	val result = arrayListOf<Int>()
-	for(item in lista)
-		result.add(funcion(item, valor))
-	return result
-}
+
 
  fun main(args: Array<String>){
 	 
